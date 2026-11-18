@@ -1,129 +1,143 @@
-# 🎓 Student Skill Exchange System
+# 🎓 Smart Campus Lost & Found Management System
 
 ## 📌 Project Overview
 
-The **Student Skill Exchange System** is a web-based platform designed to help students share their knowledge, learn new skills, and connect with other students. The system allows students to exchange skills, discover learning opportunities, and collaborate with peers based on their interests and abilities.
+The Smart Campus Lost & Found Management System is a web-based application developed to help students find their lost belongings and report items found within a college campus. The system provides a centralized platform where students can report lost items, submit found item details, and search for belongings.
 
-Instead of depending only on traditional learning methods, this platform encourages peer-to-peer learning, where students can teach skills they know and learn skills they want to develop.
+The application reduces the dependency on manual lost-and-found processes, notice boards, and informal communication. It helps organize item information, improves accessibility, and makes the recovery process easier and more efficient.
 
 ## 🎯 Objectives
 
-- To create a platform for students to exchange knowledge and skills.
-- To encourage collaborative and peer-to-peer learning.
-- To help students discover new learning opportunities.
-- To connect students with similar interests.
-- To improve communication and knowledge sharing.
-- To provide an easy-to-use web-based learning platform.
+- To develop a centralized lost-and-found platform for campus.
+- To allow students to report lost belongings.
+- To allow users to report found items.
+- To provide an efficient search facility.
+- To reduce the time required to recover lost items.
+- To maintain records of reported items.
+- To improve communication and coordination between students.
 
 ## ✨ Features
 
-- Student registration and login
+- User registration and login
+- Student dashboard
+- Report lost items
+- Report found items
+- Search for lost and found belongings
+- Item information management
 - User-friendly interface
-- Skill sharing and exchange
-- Add and manage skills
-- Browse available skills
-- Connect students with learning opportunities
-- Database integration
-- Responsive web interface
-- Student collaboration and knowledge sharing
+- Database storage
+- Organized item tracking
+- Easy access to reported item information
 
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
 |---|---|
-| HTML | Structure of the web pages |
-| CSS | Styling and user interface design |
-| JavaScript | Frontend functionality |
-| Node.js | Backend runtime environment |
-| Express.js | Backend server and API handling |
+| HTML | Web page structure |
+| CSS | Styling and interface design |
+| JavaScript | Client-side functionality |
+| Java | Backend application development |
+| Java Servlets | Server-side request processing |
 | MySQL | Database management |
-| MySQL2 | Database connectivity |
+| Apache Tomcat | Web application server |
+| JDBC | Database connectivity |
 
-## 📂 Project Structure
+## 📂 Project Modules
 
-```text
-Student-Skill-Exchange/
-│
-├── frontend/
-│   ├── HTML files
-│   ├── CSS files
-│   └── JavaScript files
-│
-├── server.js
-├── package.json
-│
-└── Database/
-    └── MySQL
-```
+### 1. User Registration and Login
+Provides user authentication and access to the application.
 
-*The folder structure may vary depending on the actual project files.*
+### 2. Dashboard
+Displays the main interface and provides navigation to the different functionalities of the system.
 
-## ⚙️ Installation and Setup
+### 3. Lost Item Reporting
+Allows users to submit information about belongings they have lost, including item details and relevant information.
+
+### 4. Found Item Reporting
+Allows students to register items they have found on campus so that owners can search for them.
+
+### 5. Search Items
+Provides functionality to search and view reported lost and found items.
+
+### 6. Database Management
+Stores and manages user information and item records using MySQL.
+
+## 🏗️ System Architecture
+
+The application follows a web-based architecture consisting of three main layers:
+
+- **Frontend:** HTML, CSS, and JavaScript provide the user interface.
+- **Backend:** Java Servlets process requests, handle application logic, and communicate with the database.
+- **Database:** MySQL stores and retrieves user details and lost-and-found item records.
+
+The application is deployed and executed using Apache Tomcat.
+
+## 💻 Requirements
+
+### Hardware Requirements
+
+- Processor: Intel Core i3 or above
+- RAM: Minimum 4 GB
+- Hard Disk: Minimum 500 MB free space
+- System: Desktop or laptop
+
+### Software Requirements
+
+- Operating System: Windows
+- Java Development Kit (JDK)
+- Apache Tomcat 10
+- MySQL Server
+- MySQL Workbench
+- Visual Studio Code or Eclipse
+- Web Browser
+
+## ⚙️ Installation and Execution
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/bhoomikaammu686-byte/student-skill-exchange.git
+git clone https://github.com/bhoomikaammu686-byte/smart-campus-lost-and-found-managment-.git
 ```
 
 ### 2. Navigate to the project folder
 
 ```bash
-cd student-skill-exchange
+cd smart-campus-lost-and-found-managment-
 ```
 
-### 3. Install dependencies
+### 3. Configure the database
 
-```bash
-npm install
-```
-
-### 4. Configure MySQL
-
-- Start your MySQL server.
+- Start MySQL Server.
 - Create the required database.
-- Configure the database connection details in `server.js`.
-- Ensure the required tables are created.
+- Import or execute the project SQL scripts.
+- Configure the database connection details in the backend.
 
-### 5. Start the application
+### 4. Configure Apache Tomcat
 
-```bash
-node server.js
-```
+Install and configure Apache Tomcat 10 and deploy the project web application.
 
-### 6. Open the application
+### 5. Run the application
 
-Open your browser and navigate to the local URL configured in the project, usually:
+Start the Tomcat server and open the application in your browser using the configured localhost URL.
 
-```text
-http://localhost:3000
-```
+## 🔮 Future Enhancements
 
-## 🗄️ Database
+- Email notifications for matching items
+- Image-based item identification
+- Mobile application support
+- Advanced search and filtering
+- Admin panel for managing reports
+- Real-time notifications
+- Item status tracking
+- Secure ownership verification
 
-The project uses MySQL to store and manage application data. The database is used to maintain student details, login information, skills, and other relevant information required for the skill exchange platform.
+## 🎓 Conclusion
 
-## 🚀 Future Enhancements
-
-- Real-time messaging between students
-- Advanced skill-matching system
-- Student ratings and feedback
-- Notifications for exchange requests
-- Video-based learning sessions
-- Skill progress tracking
-- Mobile-friendly application
-- AI-based skill recommendations
-
-## 🎓 Project Type
-
-Academic Web Application / Student Mini Project
+The Smart Campus Lost & Found Management System provides a convenient digital solution for managing lost and found belongings within a college campus. By centralizing item reports and providing search functionality, the system improves accessibility, organization, and communication between students. It reduces the difficulties associated with traditional lost-and-found methods and supports faster recovery of belongings.
 
 ## 👩‍💻 Developed By
 
 **Bhoomika**
 
-Student Skill Exchange System – A platform for learning, teaching, sharing, and growing together.
+Academic Project – Smart Campus Lost & Found Management System
 
----
-
-⭐ *Share your skills. Learn from others. Grow together.*
